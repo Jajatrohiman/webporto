@@ -19,9 +19,12 @@
     />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Jajat Rohiman Personal Website</title>
   </head>
+
   <body id="home">
     <!-- NAVBAR -->
     <nav
@@ -83,14 +86,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
               alias voluptas corporis atque aut perspiciatis totam
               necessitatibus voluptatem corrupti commodi.
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               beatae eius doloremque iure aperiam accusantium explicabo id
@@ -327,4 +330,8 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
